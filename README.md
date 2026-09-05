@@ -63,17 +63,17 @@ SOC Analyst (Investigation)
 - [x] Network connectivity verification between all three VMs
 
 ### Phase 2: Attack Execution
-- [ ] Hydra installation on Kali Linux
-- [ ] Wordlist preparation for brute-force
-- [ ] SSH brute-force attack execution (duration: 5-10 minutes)
-- [ ] Event capture and SIEM ingestion
+- [x] Hydra installation on Kali Linux
+- [x] Wordlist preparation for brute-force
+- [x] SSH brute-force attack execution (duration: 5-10 minutes)
+- [x] Event capture and SIEM ingestion
 
 ### Phase 3: Investigation & Analysis
-- [ ] Wazuh dashboard alert review
-- [ ] Log parsing and pattern identification
-- [ ] Attack timeline reconstruction (IP source, attempt count, timing)
-- [ ] Evidence collection (screenshots, logs)
-- [ ] Attack characteristics documentation
+- [x] Wazuh dashboard alert review
+- [x] Log parsing and pattern identification
+- [x] Attack timeline reconstruction (IP source, attempt count, timing)
+- [x] Evidence collection (screenshots, logs)
+- [x] Attack characteristics documentation
 
 ### Phase 4: Response & Remediation
 - [ ] Custom detection rule creation/tuning
