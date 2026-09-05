@@ -59,8 +59,8 @@ SOC Analyst (Investigation)
 - [x] Wazuh Agent installation and registration (Agent ID: 001)
 - [x] Agent-to-Manager connectivity validation (Status: Active)
 - [x] Network configuration (Host-only network, IP: 192.168.18.160)
-- [ ] Kali Linux VM deployment
-- [ ] Network connectivity verification between all three VMs
+- [x] Kali Linux VM deployment
+- [x] Network connectivity verification between all three VMs
 
 ### Phase 2: Attack Execution
 - [ ] Hydra installation on Kali Linux
