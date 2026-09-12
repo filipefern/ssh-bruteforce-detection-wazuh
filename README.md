@@ -20,7 +20,7 @@ To design, implement, and document a complete incident detection and response cy
 ```
 Kali Linux (Attacker)
     └─ Hydra SSH brute-force attack
-        └─ Target: 192.168.18.160:22
+        └─ Target: ubuntu.server
 
 Ubuntu Server 24.04 (Victim)
     └─ SSH service (target)
@@ -76,16 +76,16 @@ SOC Analyst (Investigation)
 - [x] Attack characteristics documentation
 
 ### Phase 4: Response & Remediation
-- [ ] Custom detection rule creation/tuning
-- [ ] Alert severity configuration
-- [ ] Automated response setup (fail2ban integration)
-- [ ] Validation that attack is detected and blocked
+- [x] Custom detection rule creation/tuning
+- [x] Alert severity configuration
+- [x] Automated response setup (fail2ban integration)
+- [x] Validation that attack is detected and blocked
 
 ### Phase 5: Documentation & Reporting
-- [ ] Incident report generation
-- [ ] Key findings and analysis summary
-- [ ] Lessons learned documentation
-- [ ] Final lab review and GitHub documentation
+- [x] Incident report generation
+- [x] Key findings and analysis summary
+- [x] Lessons learned documentation
+- [x] Final lab review and GitHub documentation
 
 ## VM Specifications
 
@@ -96,7 +96,7 @@ vCPU: 1 core
 Disk: 15 GB
 OS: Ubuntu Server 24.04 LTS
 Interface: Terminal-only (no GUI)
-Network: Host-only (192.168.18.160)
+Network: Host-only
 Services: SSH, Wazuh Agent
 ```
 
@@ -106,7 +106,7 @@ RAM: 8 GB
 vCPU: 4 cores
 Disk: 50 GB (SSD recommended)
 Deployment: All-in-one appliance (OVA)
-Network: Host-only (192.168.18.x)
+Network: Host-only
 Dashboard: HTTPS on port 443
 Components: Manager, Indexer, Dashboard
 ```
@@ -117,7 +117,7 @@ RAM: 2-4 GB
 vCPU: 2 cores
 Disk: 20-30 GB
 Interface: Desktop GUI (Xfce - lightweight)
-Network: Host-only (192.168.18.x)
+Network: Host-only
 Tools: Hydra, standard penetration testing tools
 ```
 
@@ -125,7 +125,7 @@ Tools: Hydra, standard penetration testing tools
 
 - PC/Laptop with minimum 16 GB RAM (32 GB recommended)
 - 80 GB free disk space
-- VirtualBox installed and working
+- VMware Workstation PRO installed and working
 - 4-6 hours for complete lab execution
 
 ## Installation & Setup (Steps in development)
