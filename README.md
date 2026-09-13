@@ -149,6 +149,12 @@ Tools: Hydra, standard penetration testing tools
 - Attack pattern correctly mapped to MITRE T1110.001 (Brute Force)
 - Automated fail2ban response worked, blocking subsequent attempts
 
+## Screenshots 
+<img width="1418" height="575" alt="Image" src="https://github.com/user-attachments/assets/e513aaf8-64b3-46fe-988c-3195ef092c2f" />
+<img width="1600" height="875" alt="Image" src="https://github.com/user-attachments/assets/0c41312f-b3b7-4395-b93f-ece7194ac85a" />
+<img width="1520" height="871" alt="Image" src="https://github.com/user-attachments/assets/94fc819b-5340-423b-a221-a90fdb7b347c" />
+<img width="830" height="373" alt="Image" src="https://github.com/user-attachments/assets/86c6a3fd-0516-4195-97ae-ec4c0337ea5f" /> 
+
 ## Lessons Learned
 
 - SSH on port 22 is vulnerable to brute-force attacks
