@@ -164,7 +164,7 @@ Tools: Hydra, standard penetration testing tools
 - [Official Wazuh Documentation](https://documentation.wazuh.com/)
 - [MITRE ATT&CK Framework - Brute Force (T1110)](https://attack.mitre.org/techniques/T1110/)
 - [Hydra Documentation](https://www.kali.org/tools/hydra/)
-- [fail2ban Documentation](https://www.fail2ban.org/wiki/index.php/Main_Page)
+- [fail2ban Documentation](https://fail2ban.readthedocs.io/en/latest/)
 - [CIS Benchmarks](https://www.cisecurity.org/)
 
 ## Important Notes
